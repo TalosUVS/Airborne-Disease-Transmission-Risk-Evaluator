@@ -45,6 +45,7 @@ The project was developed by the **Talos Student Research Team** at the **Univer
 ### Software:
 - The device runs a local web server that serves the data and predictions. The user interface can be accessed through a web browser.
 - The TinyML models are pre-trained and uploaded to the microcontroller.
+- Our model has been trained on a synthetic dataset that evaluates the risk for the Flu. Feel free to use your own dataset.
 
 ### Step-by-step guide:
 1. Connect the sensors to the microcontroller according to the wiring diagram provided.
