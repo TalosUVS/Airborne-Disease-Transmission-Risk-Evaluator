@@ -48,10 +48,11 @@ The project was developed by the **Talos Student Research Team** at the **Univer
 - Our model has been trained on a synthetic dataset that evaluates the risk for the Flu. Feel free to use your own dataset.
 
 ### Step-by-step guide:
-1. Connect the sensors to the microcontroller according to the wiring diagram provided.
-2. Upload the code to the microcontroller.
-3. Once powered on, the device will create a Wi-Fi access point. Connect to it using your smartphone, tablet, or computer.
-4. Open the browser and navigate to the local IP address provided by the device to view the real-time data and risk prediction.
+1. Connect the sensors to the microcontroller according to the wiring diagram provided (***uploaded soon***).
+2. Download the code from the "Code" folder and follow the instructions on each folder.
+3. Upload the code to the microcontroller.
+4. Once powered on, the device will create a Wi-Fi access point. Connect to it using your smartphone, tablet, or computer.
+5. Open the browser and navigate to the local IP address provided by the device to view the real-time data and risk prediction.
 
 ## Contributions
 
