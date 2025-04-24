@@ -1,4 +1,4 @@
-# Airborne Disease Transmission Risk Evaluato
+# Airborne Disease Transmission Risk Evaluator
 
 ## Overview
 
