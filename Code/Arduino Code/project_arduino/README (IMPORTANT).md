@@ -1,6 +1,6 @@
-# ESP32 Flu Risk Sensor Module
+# Flu Risk Sensor Module
 
-This module contains the firmware for an ESP32-based flu risk detection system. It runs a web server that displays environmental sensor data and allows users to submit room parameters to predict flu transmission risk.
+This module contains the firmware for an microcontroller-based flu risk detection system. It runs a web server that displays environmental sensor data and allows users to submit room parameters to predict flu transmission risk.
 
 ## 📡 What It Does
 
@@ -26,12 +26,12 @@ Output:
 
 ## 🔧 Files
 
-- `FluRiskSensor.ino`: Main firmware for the ESP32
+- `FluRiskSensor.ino`: Main firmware for your microcontroller.
 - `riskClassifier.h`: Decision tree logic for flu risk prediction
 
 ## 📲 How to Use
 
-1. Upload the `.ino` sketch to your ESP32.
+1. Upload the `.ino` sketch to your microcontroller.
 2. Connect to the `RoomSensorAP` network (default password: `12345678`).
 3. Open a browser and go to the IP shown in Serial Monitor (e.g., `192.168.4.1`).
 4. View sensor data and submit room details for risk prediction.
@@ -39,3 +39,4 @@ Output:
 ---
 
 ⚠️ Make sure to calibrate the MQ135 in clean air on first run!
+⚠️ Important! This code runs better on ESP32, Raspberry Pi Pico W/2W devices. You may need to change the code for other microcontrollers.
