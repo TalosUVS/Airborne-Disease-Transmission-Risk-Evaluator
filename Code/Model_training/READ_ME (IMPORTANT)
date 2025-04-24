@@ -1,5 +1,0 @@
-> The python file contains code that trains a decision tree with the dataset of your choice.
-> The dataset that we used for our project is located inside the Dataset folder. The dataset and the python file must be in the same directory in order to run without errors (you can change this in your code).
-> After training, evaluation begins and last but not least the program generates a text file that contains the C++ code of our model.
-> That file can then be converted into a .h file with a simple rename or by copy pasting the contents of it in a generated .h file.
-> After the above, you follow the instructions inside the Arduino Code folder.
